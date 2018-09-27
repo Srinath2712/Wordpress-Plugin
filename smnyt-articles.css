@@ -1,0 +1,76 @@
+/*
+* Backend Styles 
+/*
+*   Plugin Name: NY Times Plugin(SMNYT)
+*   Version: 1.0 
+*   Author: Srinath Mupparsi
+*   License: GPL2
+*   Description:  Provides both widgets and shortcodes to help     display NY times articles on the web page. 
+
+*/
+
+.postbox .inside{
+    display: table
+}
+
+.postbox .smnyt-articles > li {
+    float: left;
+    margin: 5px;
+    text-align: center;
+    height: 290px;
+    width: 120px;
+    overflow: hidden;
+}
+
+.postbox .smnyt-articles li li{
+    margin: 2px 0;
+    padding: 0;
+}
+
+.postbox .smnyt-articles img{
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+/*
+* Frontend Styles 
+*/
+
+
+
+.smnyt-articles li,
+.widget-area .smnyt-articles li {
+
+	margin: 0 5px 5px;
+	padding: 10px 0 0;
+	list-style: none;
+}
+
+.smnyt-articles .smnyt-articles img {
+	width: 100%;
+	border: none;
+	box-shadow: 0 0 0 0;
+}
+
+.smnyt-articles .smnyt-articles-info {	
+	background: grey;
+	border-radius: 2px;	
+	color: #ededed;
+	padding: 14px;	
+}
+
+
+.smnyt-articles-info p.smnyt-articles-name,
+.widget-area .widget .smnyt-articles-info p.smnyt-articles-name {
+	font-size: 14px;
+	line-height: 16px;
+	margin:  8px 0;	
+}
+
+.smnyt-articles-info .smnyt-articles-name a,
+.widget-area .widget .smnyt-articles-info .smnyt-articles-name a {
+	color: #fff; 
+	text-shadow: 0 0 1px #000;
+}
+
